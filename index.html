@@ -16,7 +16,7 @@
     <div class="superinfo-bg">
         <div class="superinfo">
             <p class="superinfo-p">Segunda à Sexta-feira - 08:00  ás 18:00</p>
-            <a href="tel:+552199999999" class="superinfo-p">+55 21 9999-9999</a>
+            <p class="superinfo-p">+55 21 9999-9999</p>
             <p class="superinfo-p">Av. Ali Perto, 330, Botafogo - RJ</p>
 
         </div>
@@ -28,20 +28,20 @@
             </div>
             <div>
                 <nav class="menu">
-                    <ul>
-                        <li>
+                    <ul class="nav">
+                        <a href="index.html"><li>
                             HOME
-                        </li>
-                        <li>
+                        </li></a>
+                        <a href="index.html"><li>
                             Sobre nós
-                        </li>
-                        <li>
+                        </li></a>
+                       <a href="#planos"><li>
                             PLANOS
-                        </li>
-                        <li>
+                        </li></a>
+                        <a href="#beneficios"><li>
                             CONTATO
-                        </li>
-                        <li>
+                        </li></a>
+                        <li class="login">
                             login
                         </li>
 
@@ -71,7 +71,7 @@
                 COnheça os nossos benefícios
             </h2>
             <div class="ben-flex">
-                <div class="beneficio">
+                <div class="beneficio" id="beneficios">
                     <div class="tit-img">
                         <img src="./img/phone.png" class="icone">
                         <h3 class="subtitulo-2">
@@ -164,14 +164,15 @@
             </div>
         </section>
         <!-- planos -->
-        <section>
+        <section class="planos" >
+            <div id="planos">
             <h2 class="subtitulo">
                 Conheça nossos planos
             </h2>
             <section class="preco" id="preco">
                 <div class="preco-item">
                     <h2>Cobre</h2>
-                    <span><sup>R$</sup>19</span>
+                    <span><sup>R$</sup>79,90</span>
                     <ul>
                         <li>Planos Ilimitados</li>
                         <li>Acesso Restrito</li>
@@ -183,7 +184,7 @@
 
                 <div class="preco-item">
                     <h2>Prata</h2>
-                    <span><sup>R$</sup>39</span>
+                    <span><sup>R$</sup>119,90</span>
                     <ul>
                         <li>Planos Ilimitados</li>
                         <li>Acesso Restrito</li>
@@ -196,7 +197,7 @@
 
                 <div class="preco-item">
                     <h2>Ouro</h2>
-                    <span><sup>R$</sup>79</span>
+                    <span><sup>R$</sup>169,90</span>
                     <ul>
                         <li>Planos Ilimitados</li>
                         <li>Acesso Restrito</li>
@@ -207,6 +208,7 @@
                     </ul>
                     <a href="#">Comprar</a>
                 </div>
+            </div>
             </section>
 
 
@@ -215,9 +217,11 @@
 
     <footer class="footer">
         <p class="p-footer">
-            @Flex-Blog. Todos os direitos reservados.
+            @Altered Datum. Todos os direitos reservados.
         </p>
     </footer>
+    <script src="./js/script.js">
+    </script>
 </body>
 
 </html>
